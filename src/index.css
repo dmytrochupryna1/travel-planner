@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font:'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 .navbar {
@@ -8,11 +9,21 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid #b4b0b0;
+  padding: 10px;
+  background: #F55A5A;
+  /* color: white; */
 }
+
+          .navbar > img {
+            height: 36px;
+            margin-right: 7px;
+          }
 
 .destination {
   display: flex;
-  border: 1px solid #b4b0b0;
+  border-bottom: 2px solid #d3d1d1;
+  margin: 20px;
+  padding-bottom: 20px;
 }
 
           h1 {
@@ -20,35 +31,48 @@ body {
             padding: 0;
           }
 
+          h3 {
+            margin-top: 10px;
+          }
+
+          p {
+            margin-top: 10px;}
+
           .destination > img {
             /* width: 580px; */
             min-height: 268px;
             max-width: 368px;
             border-radius: 25px;
+            margin-right: 10px;
           }
+
+          
 
           .destination--description {
             display: flex;
             flex-direction: column;
+            margin-left: 10px;
           }
 
                     .destination--description--first-line {
                       display: flex;
-                      border: 1px solid #b4b0b0;
+                      margin-left: -10px;
+                      margin-bottom: 10px;
                       align-items:center;
                     }
 
                     .destination--description--first-line > img {
                       align-self: center;
                       height: 24px;
+                      margin-right: 7px;
                     }
 
                     .destination--description--first-line > a {
                       /* remove default blue styling */
+                      margin-left: 10px;
                       color: #918E9B;
                       ;
                     }
-
 
 
 /* :root {

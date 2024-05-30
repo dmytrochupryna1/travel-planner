@@ -12,7 +12,6 @@ export default function Destination(props) {
                 <h3>{props.dates}</h3>
                 <p>{props.description}</p>
             </div>
-            
         </div>
     )
 }
