@@ -3,6 +3,13 @@ body {
   padding: 0;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b4b0b0;
+}
+
 .destination {
   display: flex;
   border: 1px solid #b4b0b0;

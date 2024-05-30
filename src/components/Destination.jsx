@@ -4,7 +4,7 @@ export default function Destination(props) {
             <img src={props.img}/>
             <div class="destination--description">
                 <div class="destination--description--first-line">
-                    <img src="pin-point.png"/>
+                    <img src="pin.png"/>
                     <h1>{props.country}</h1>
                     <a href={props.link} target="_blank">View on Google Maps</a>
                 </div>

@@ -13,5 +13,12 @@ export default [
         title: "Sydney Opera House",
         dates: "12 Jan, 2021 - 24 Jan, 2021",
         description: "The Sydney Opera House is a multi-venue performing arts centre at Sydney Harbour in Sydney, New South Wales, Australia. It is one of the 20th century's most famous and distinctive buildings."
+    }, {
+        img: "italy.png",
+        country: "Italy",
+        link: "https://maps.app.goo.gl/URBjqyWGfkabvpby5",
+        title: "Colosseum",
+        dates: "12 Jan, 2021 - 24 Jan, 2021",
+        description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today."
     }
 ]
