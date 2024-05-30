@@ -4,13 +4,45 @@ body {
 }
 
 .destination {
+  display: flex;
   border: 1px solid #b4b0b0;
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
-}
+          h1 {
+            margin: 0;
+            padding: 0;
+          }
+
+          .destination > img {
+            /* width: 580px; */
+            min-height: 268px;
+            max-width: 368px;
+            border-radius: 25px;
+          }
+
+          .destination--description {
+            display: flex;
+            flex-direction: column;
+          }
+
+                    .destination--description--first-line {
+                      display: flex;
+                      border: 1px solid #b4b0b0;
+                      align-items:center;
+                    }
+
+                    .destination--description--first-line > img {
+                      align-self: center;
+                      height: 24px;
+                    }
+
+                    .destination--description--first-line > a {
+                      /* remove default blue styling */
+                      color: #918E9B;
+                      ;
+                    }
+
+
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
